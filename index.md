@@ -79,16 +79,16 @@ show_reading_time: false
         <div class="bg-gradient-to-r from-green-700 via-green-600 to-green-900 w-full h-full opacity-70 animate-gradient"></div>
     </div>
     <!-- About Us Section -->
-    <section id="about" class="h-screen flex flex-col items-center justify-center text-center bg-green-100 text-black">
-        <h2 class="text-7xl font-extrabold text-green-800 fade-in mb-6">The City of Poway</h2>
+    <section id="about" class="h-screen flex flex-col items-center justify-center text-center bg-orange-100 text-black">
+        <h2 class="text-7xl font-extrabold text-teal-800 fade-in mb-6">The City of Poway</h2>
         <img src="{{site.baseurl}}/images/poway.png" alt="Poway City" class="w-80 mb-6 fade-in border-8 border-[#0e470d]" />
-        <p class="text-3xl text-green-700 max-w-5xl fade-in">
+        <p class="text-3xl text-teal-800 max-w-5xl fade-in">
             Discover city-wide analytics and explore interactive content that shape our future.
         </p>
     </section>
     <!-- Features Section -->
-    <section id="features" class="py-20 bg-green-200">
-        <h2 class="text-7xl font-bold text-center text-green-900 mb-10 fade-in">Our Features</h2>
+    <section id="features" class="py-20 bg-teal-800">
+        <h2 class="text-7xl font-bold text-center text-orange-100 mb-10 fade-in">Our Features</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 hover:scale-105">
                 <div class="p-6">
