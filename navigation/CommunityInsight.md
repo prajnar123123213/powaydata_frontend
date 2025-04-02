@@ -6,3 +6,5 @@ hide: true
 menu: nav/home.html
 show_reading_time: false
 ---
+
+**Community Insight**
