@@ -87,29 +87,30 @@ show_reading_time: false
         </p>
     </section>
     <!-- Features Section -->
-    <section id="features" class="py-20 bg-teal-800">
-        <h2 class="text-7xl font-bold text-center text-orange-100 mb-10 fade-in">Our Features</h2>
+    <section id="features" class="py-20 bg-green-200">
+        <h2 class="text-7xl font-bold text-center text-green-900 mb-10 fade-in">Our Features</h2>
         <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 hover:scale-105 max-w-sm mx-auto">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 hover:scale-105">
                 <div class="p-6">
                     <h3 class="text-3xl font-bold mb-2 text-green-900">Community Insights</h3>
                     <p class="text-lg text-green-800">Explore real-time data on city resources, traffic patterns, and community events.</p>
                 </div>
             </div>
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 hover:scale-105 max-w-sm mx-auto">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 hover:scale-105">
                 <div class="p-6">
                     <h3 class="text-3xl font-bold mb-2 text-green-900">Interactive Maps</h3>
                     <p class="text-lg text-green-800">Navigate Poway through dynamic, interactive maps that provide valuable insights.</p>
                 </div>
             </div>
-            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 hover:scale-105 max-w-sm mx-auto">
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 hover:scale-105">
                 <div class="p-6">
                     <h3 class="text-3xl font-bold mb-2 text-green-900">Event Calendar</h3>
                     <p class="text-lg text-green-800">Stay up-to-date with upcoming community events and city council meetings.</p>
                 </div>
             </div>
-        </div>
-    </section>
+        </a>
+    </div>
+</section>
     <script>
         document.addEventListener("DOMContentLoaded", function() {
             const loadingScreen = document.getElementById('loading-screen');
