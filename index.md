@@ -87,25 +87,33 @@ show_reading_time: false
         </p>
     </section>
     <!-- Features Section -->
-    <section id="features" class="py-20 bg-green-200">
-        <h2 class="text-7xl font-bold text-center text-green-900 mb-10 fade-in">Our Features</h2>
-        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+   <section id="features" class="py-20 bg-green-200">
+    <h2 class="text-7xl font-bold text-center text-green-900 mb-10 fade-in">Our Features</h2>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Community Insights -->
+        <a href="communityinsight.md" class="block">
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 hover:scale-105">
                 <div class="p-6">
                     <h3 class="text-3xl font-bold mb-2 text-green-900">Community Insights</h3>
-                    <p class="text-lg text-green-800">Explore real-time data on city resources, traffic patterns, and community events.</p>
+                    <p class="text-xl text-green-800">Explore real-time data on city resources, traffic patterns, and community events.</p>
                 </div>
             </div>
+        </a>
+        <!-- Interactive Maps -->
+        <a href="interactivemaps.md" class="block">
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 hover:scale-105">
                 <div class="p-6">
                     <h3 class="text-3xl font-bold mb-2 text-green-900">Interactive Maps</h3>
-                    <p class="text-lg text-green-800">Navigate Poway through dynamic, interactive maps that provide valuable insights.</p>
+                    <p class="text-xl text-green-800">Navigate Poway through dynamic, interactive maps that provide valuable insights.</p>
                 </div>
             </div>
+        </a>
+        <!-- Event Calendar -->
+        <a href="eventcalendar.md" class="block">
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 hover:scale-105">
                 <div class="p-6">
                     <h3 class="text-3xl font-bold mb-2 text-green-900">Event Calendar</h3>
-                    <p class="text-lg text-green-800">Stay up-to-date with upcoming community events and city council meetings.</p>
+                    <p class="text-xl text-green-800">Stay up-to-date with upcoming community events and city council meetings.</p>
                 </div>
             </div>
         </a>
