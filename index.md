@@ -90,7 +90,7 @@ show_reading_time: false
     <h2 class="text-7xl font-bold text-center text-orange-100 mb-10 fade-in">Our Features</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- Community Insights -->
-        <a href="communityinsight.md" class="block">
+        <a href="community.md" class="block">
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 hover:scale-105 max-w-sm mx-auto">
                 <div class="p-6">
                     <h3 class="text-3xl font-bold mb-2 text-teal-800">Community Insights</h3>
@@ -99,7 +99,7 @@ show_reading_time: false
             </div>
         </a>
         <!-- Interactive Maps -->
-        <a href="interactivemaps.md" class="block">
+        <a href="interactive.md" class="block">
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 hover:scale-105 max-w-sm mx-auto">
                 <div class="p-6">
                     <h3 class="text-3xl font-bold mb-2 text-teal-800">Interactive Maps</h3>
@@ -108,7 +108,7 @@ show_reading_time: false
             </div>
         </a>
         <!-- Event Calendar -->
-        <a href="eventcalendar.md" class="block">
+        <a href="event.md" class="block">
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 hover:scale-105 max-w-sm mx-auto">
                 <div class="p-6">
                     <h3 class="text-3xl font-bold mb-2 text-teal-800">Event Calendar</h3>
