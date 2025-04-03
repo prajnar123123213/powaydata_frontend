@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Poway City
+title: Interactive Maps
 search_exclude: true
 hide: true
 menu: nav/interactivemaps.md

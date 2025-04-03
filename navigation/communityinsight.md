@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Poway City
+title: Community Insight 
 search_exclude: true
 hide: true
 menu: nav/communityinsight.md
