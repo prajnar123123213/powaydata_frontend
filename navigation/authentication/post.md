@@ -1,10 +1,12 @@
 ---
 layout: post
 title: Add a Post
-permalink: /post
+permalink: /CommunityInsights
 menu: nav/home.html
 search_exclude: true
 ---
+
+
 <style>
     .container {
         display: flex;
@@ -44,6 +46,10 @@ search_exclude: true
         cursor: pointer;
     }
 </style>
+
+<div class="container">
+    <h1 style="text-align: center; margin-top: 20px; color: #2C3E50;">Community Insights</h1>
+</div>
 
 <div class="container">
     <div class="form-container">

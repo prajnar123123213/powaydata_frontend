@@ -18,7 +18,7 @@ show_reading_time: false
             font-family: 'Julius Sans One', sans-serif;
         }
         .loader {
-            border-top-color: #0e470d;
+            border-top-color:rgb(73, 109, 93);
             animation: spin 1.5s infinite linear;
         }
         @keyframes spin {
@@ -90,7 +90,7 @@ show_reading_time: false
     <h2 class="text-7xl font-bold text-center text-orange-100 mb-10 fade-in">Our Features</h2>
     <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
         <!-- Community Insights -->
-        <a href="communityinsight.md" class="block">
+        <a href="post.md" class="block">
             <div class="bg-white rounded-lg shadow-lg overflow-hidden transform transition-transform duration-500 hover:scale-105 max-w-sm mx-auto">
                 <div class="p-6">
                     <h3 class="text-3xl font-bold mb-2 text-teal-800">Community Insights</h3>
