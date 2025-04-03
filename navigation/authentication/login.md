@@ -1,6 +1,5 @@
 ---
 layout: page 
-title: Login
 permalink: /login
 search_exclude: true
 show_reading_time: false 
@@ -9,41 +8,75 @@ show_reading_time: false
 <style>
 .login-container {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap; /* allows the cards to wrap onto the next line if the screen is too small */
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    padding: 40px;
+    background-color: #f9f9f9;
 }
 
-.login-card {
-    margin-top: 0; /* remove the top margin */
-    width: 45%;
+.login-card, .signup-card {
+    width: 400px;
+    border-radius: 10px;
+    padding: 25px;
+    background: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.login-card h1, .signup-card h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+label {
+    display: block;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
     border: 1px solid #ddd;
     border-radius: 5px;
-    padding: 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
-    overflow-x: auto; /* Enable horizontal scrolling */
+    font-size: 16px;
 }
 
-.login-card h1 {
-    margin-bottom: 20px;
-}
-
-.signup-card {
-    margin-top: 0; /* remove the top margin */
-    width: 45%;
-    border: 1px solid #ddd;
+button {
+    width: 100%;
+    padding: 12px;
+    background-color: #007bff;
+    border: none;
     border-radius: 5px;
-    padding: 20px;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
-    margin-bottom: 20px;
-    overflow-x: auto; /* Enable horizontal scrolling */
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease;
 }
 
-.signup-card h1 {
-    margin-bottom: 20px;
+button:hover {
+    background-color: #0056b3;
 }
 
+button:disabled {
+    background-color: #d3d3d3;
+    cursor: not-allowed;
+}
+
+p#message, p#signupMessage {
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 10px;
+}
 </style>
+
 
 <div class="login-container">
     <!-- Python Login Form -->

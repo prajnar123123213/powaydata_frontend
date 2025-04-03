@@ -1,5 +1,5 @@
 ---
-layout: bootstrap 
+layout: post 
 title: Tourist Sites
 description: Popular Destinations for Poway/SD Travel
 author: John Mortensen
@@ -7,6 +7,7 @@ permalink: /live/
 hide: true
 ---    
 <!-- Start of body content specific to a table using bootstrap -->
+<!-- need to add layou tpater -->
 <div class="row mx-3 mb-4 rounded-3 align-items-md-stretch">
     <table class="table " id="cars">
         <thead>
