@@ -1,22 +1,20 @@
 ---
-layout: post 
+layout: bootstrap 
 title: Tourist Sites
 description: Popular Destinations for Poway/SD Travel
 author: John Mortensen
 permalink: /live/
 hide: true
 ---    
-<!-- Start of body content specific to a table using bootstrap -->
-<!-- need to add layou tpater -->
-<div class="row mx-3 mb-4 rounded-3 align-items-md-stretch">
-    <table class="table " id="cars">
+<!-- once we make live activity work, we will link it to this table -->
+<div class="row mx-3 mb-4 rounded-3 align-items-md-stretch" style="height: 100vh; width: 100%; overflow: auto;">
+    <table class="table " id="cars" style="table-layout: fixed; height: 100%; background-color: #e8f9e8;">
         <thead>
             <tr>
                 <th>Name</th>
                 <th>Established</th>
                 <th>Price</th>
                 <th>Location</th>
-                <th>Live Activity</th>
             </tr>
         </thead>
         <tbody>
@@ -26,48 +24,41 @@ hide: true
     <script>
         // Inline JavaScript Object for Cars
         const cars = [
-            { make: "Ford", model: "Mustang", year: 2022, color: "Red", price: "$35,000" },
-            { make: "Toyota", model: "Camry", year: 2022, color: "Silver", price: "$25,000" },
-            { make: "Tesla", model: "Model S", year: 2022, color: "White", price: "$80,000" },
-            { make: "Cadillac", model: "Broughan", year: 1969, color: "Black", price: "$10,000" },
-            { make: "Ford", model: "F-350", year: 1997, color: "Green", price: "$15,000" },
-            { make: "Ford", model: "Excursion", year: 2003, color: "Green", price: "$25,000" },
-            { make: "Ford", model: "Ranger", year: 2012, color: "Red", price: "$8,000" },
-            { make: "Kuboto", model: "L3301 Tractor", year: 2015, color: "Orange", price: "$12,000" },
-            { make: "Ford", model: "Fusion Energi", year: 2015, color: "Green", price: "$15,000" },
-            { make: "Acura", model: "XL", year: 2006, color: "Grey", price: "$10,000" },
-            { make: "Ford", model: "F150 Lightning", year: 2023, color: "Grey", price: "$70,000" },
-            { make: "Chevrolet", model: "Corvette", year: 2021, color: "Yellow", price: "$60,000" },
-            { make: "BMW", model: "X5", year: 2020, color: "Blue", price: "$50,000" },
-            { make: "Audi", model: "A4", year: 2019, color: "White", price: "$40,000" },
-            { make: "Mercedes-Benz", model: "C-Class", year: 2018, color: "Black", price: "$45,000" },
-            { make: "Honda", model: "Civic", year: 2022, color: "Silver", price: "$22,000" },
-            { make: "Hyundai", model: "Elantra", year: 2021, color: "Blue", price: "$20,000" },
-            { make: "Nissan", model: "Altima", year: 2020, color: "Red", price: "$24,000" },
-            { make: "Jeep", model: "Wrangler", year: 2023, color: "Green", price: "$45,000" },
-            { make: "Subaru", model: "Outback", year: 2022, color: "White", price: "$30,000" },
-            { make: "Mazda", model: "CX-5", year: 2021, color: "Grey", price: "$28,000" },
-            { make: "Volkswagen", model: "Jetta", year: 2020, color: "Black", price: "$18,000" },
-            { make: "Chevrolet", model: "Silverado", year: 2023, color: "Blue", price: "$55,000" },
-            { make: "Dodge", model: "Charger", year: 2022, color: "Red", price: "$40,000" },
-            { make: "Kia", model: "Sorento", year: 2021, color: "White", price: "$32,000" },
-            { make: "Toyota", model: "Highlander", year: 2022, color: "Silver", price: "$38,000" },
-            { make: "Ford", model: "Explorer", year: 2023, color: "Black", price: "$50,000" },
-            { make: "Tesla", model: "Model 3", year: 2023, color: "Blue", price: "$45,000" },
-            { make: "Ram", model: "1500", year: 2022, color: "Grey", price: "$48,000" },
-            { make: "GMC", model: "Sierra", year: 2023, color: "White", price: "$60,000" },
-            { make: "Volvo", model: "XC90", year: 2021, color: "Black", price: "$55,000" }
+            { name: "Balboa Park", established: 1868, price: "Free", location: "San Diego, CA" },
+            { name: "San Diego Zoo", established: 1916, price: "$69.95", location: "2920 Zoo Dr, San Diego, CA 92101" },
+            { name: "SeaWorld San Diego", established: 1964, price: "$74.99+", location: "500 Sea World Dr, San Diego, CA 92109" },
+            { name: "USS Midway Museum", established: 2004, price: "$32", location: "910 N Harbor Dr, San Diego, CA 92101" },
+            { name: "Old Town San Diego State Historic Park", established: 1969, price: "Free", location: "4002 Wallace St, San Diego, CA 92110" },
+            { name: "La Jolla Cove", established: "N/A", price: "Free", location: "La Jolla, CA 92037" },
+            { name: "Torrey Pines State Natural Reserve", established: 1959, price: "$12-25 parking", location: "12600 N Torrey Pines Rd, La Jolla, CA 92037" },
+            { name: "Cabrillo National Monument", established: 1913, price: "$10 per person", location: "1800 Cabrillo Memorial Dr, San Diego, CA 92106" },
+            { name: "Sunset Cliffs Natural Park", established: "N/A", price: "Free", location: "Ladera St, San Diego, CA 92107" },
+            { name: "Coronado Beach", established: "N/A", price: "Free", location: "Coronado, CA 92118" },
+            { name: "Birch Aquarium at Scripps", established: 1903, price: "$24.95", location: "2300 Expedition Way, La Jolla, CA 92037" },
+            { name: "San Diego Air & Space Museum", established: 1963, price: "$22.50", location: "2001 Pan American Plaza, San Diego, CA 92101" },
+            { name: "Gaslamp Quarter", established: "1800s", price: "Free", location: "San Diego, CA 92101" },
+            { name: "Seaport Village", established: 1980, price: "Free", location: "849 W Harbor Dr, San Diego, CA 92101" },
+            { name: "LEGOLAND California", established: 1999, price: "$89+", location: "1 Legoland Dr, Carlsbad, CA 92008" },
+            { name: "Mission San Diego de Alcalá", established: 1769, price: "$5 donation", location: "10818 San Diego Mission Rd, San Diego, CA 92108" },
+            { name: "Point Loma Tide Pools", established: "N/A", price: "$10 per person", location: "Point Loma, CA 92106" },
+            { name: "Petco Park", established: 2004, price: "Varies", location: "100 Park Blvd, San Diego, CA 92101" },
+            { name: "The New Children's Museum", established: 2008, price: "$15", location: "200 W Island Ave, San Diego, CA 92101" },
+            { name: "Fleet Science Center", established: 1973, price: "$24.95", location: "1875 El Prado, San Diego, CA 92101" },
+            { name: "San Diego Natural History Museum", established: 1874, price: "$22", location: "1788 El Prado, San Diego, CA 92101" },
+            { name: "San Diego Botanic Garden", established: 1970, price: "$18", location: "300 Quail Gardens Dr, Encinitas, CA 92024" },
+            { name: "Poway Lake", established: "N/A", price: "Free", location: "14644 Lake Poway Rd, Poway, CA 92064" },
+            { name: "Iron Mountain Trail", established: "N/A", price: "Free", location: "Poway, CA 92064" },
+            { name: "San Elijo Lagoon", established: "N/A", price: "Free", location: "2710 Manchester Ave, Cardiff, CA 92007" }
         ];
         // Populate the table dynamically
         const tbody = document.querySelector("#cars tbody");
         cars.forEach(car => {
             const row = document.createElement("tr");
             row.innerHTML = `
-                <td>${car.make}</td>
-                <td>${car.model}</td>
-                <td>${car.year}</td>
-                <td>${car.color}</td>
+                <td>${car.name}</td>
+                <td>${car.established}</td>
                 <td>${car.price}</td>
+                <td>${car.location}</td>
             `;
             tbody.appendChild(row);
         });
