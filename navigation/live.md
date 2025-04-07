@@ -2,7 +2,6 @@
 layout: bootstrap 
 title: Tourist Sites
 description: Popular Destinations for Poway/SD Travel
-author: John Mortensen
 permalink: /live/
 hide: true
 ---    
@@ -21,6 +20,23 @@ hide: true
             <!-- Rows will be dynamically added here -->
         </tbody>
     </table>
+    <style>
+    /* Force black font in table cells */
+    tbody td {
+        color: #000 !important;
+    }
+    thead th {
+        color: #000 !important;
+    }
+    /* Optional: Style the table header background for contrast */
+    thead {
+        background-color: #d4f5d1;
+    }
+    /* Optional: Light green row hover */
+    table tbody tr:hover {
+        background-color: #eafae8;
+    }
+    </style>
     <script>
         // Inline JavaScript Object for Cars
         const cars = [
