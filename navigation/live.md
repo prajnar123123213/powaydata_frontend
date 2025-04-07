@@ -8,7 +8,7 @@ hide: true
 ---    
 <!-- once we make live activity work, we will link it to this table -->
 <div class="row mx-3 mb-4 rounded-3 align-items-md-stretch" style="height: 100vh; width: 100%; overflow: auto;">
-    <table class="table " id="cars" style="table-layout: fixed; height: 100%; background-color: #e8f9e8;">
+    <table class="table " id="cars" style="table-layout: fixed; height: 100%;">
         <thead>
             <tr>
                 <th>Name</th>

@@ -1,7 +1,7 @@
 ---
 layout: post 
-title: Tourist Sites
-description: Popular Destinations for Poway/SD Travel
+title: Community Events
+description: Posting and Interaction for Users
 menu: nav/home.html
 permalink: /community/
 hide: true
