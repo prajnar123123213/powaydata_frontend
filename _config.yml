@@ -1,4 +1,4 @@
-title: PowayData
+title: Poway Data
 description: "Social Media for PilotCity"
 owner_name: Prajna, Arshia, Mirabelle, Sanya, Alex, Manahil
 github_username: prajnar123123213
@@ -18,3 +18,4 @@ plugins:
 header_pages:
   - navigation/ai.md
   - navigation/search.md
+  - navigation/blog.md

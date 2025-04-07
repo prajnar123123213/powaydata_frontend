@@ -1,0 +1,40 @@
+---
+layout: base
+---
+
+<!-- Tailwind CSS -->
+<script src="https://cdn.tailwindcss.com"></script>
+
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          primary: "#2E7D32", /* Deep Green */
+          secondary: "#4CAF50", /* Vibrant Green */
+          accent: "#1565C0", /* Rich Blue */
+          neutral: "#F5F5F5" /* Light Background */
+        },
+        fontFamily: {
+          sans: ["Poppins", "Inter", "sans-serif"]
+        }
+      }
+    }
+  };
+</script>
+
+<!-- Tailwind-styled content -->
+<div class="container">
+  <header class="bg-primary text-white p-6 rounded-xl shadow-md">
+    <h1 class="text-3xl font-bold">Poway Data</h1>
+    <p class="text-lg">Reliable data & insights for Poway and beyond</p>
+  </header>
+
+  <main class="bg-blue p-6 rounded-xl shadow-md">
+    {{ content }}
+  </main>
+
+  <footer class="mt-6 text-center text-sm text-gray-600">
+    &copy; 2025 Poway Data. All rights reserved.
+  </footer>
+</div>

@@ -16,22 +16,23 @@
     <a id="skip-to-content" href="#content">Skip to the content.</a>
 
     <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title | default: site.github.repository_name }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>
-      <a href="{{ site.baseurl }}/" class="btn">Nighthawk Pages</a>
-      {%- assign default_paths = site.pages | map: "path" -%}
-      {%- assign page_paths = site.header_pages | default: default_paths -%}
-      {%- assign titles_size = site.pages | map: 'title' | join: '' | size -%}
-      {%- for path in page_paths -%}
-            {%- assign my_page = site.pages | where: "path", path | first -%}
-            {%- if my_page.title -%}
+      <h1 class="project-name">Poway Data</h1>
+      <div class="nav-buttons" style="display: flex; gap: 1rem; flex-wrap: wrap; justify-content: center;">
+        <a href="{{ site.baseurl }}/" class="btn">Home</a>
+        {%- assign default_paths = site.pages | map: "path" -%}
+        {%- assign page_paths = site.header_pages | default: default_paths -%}
+        {%- for path in page_paths -%}
+          {%- assign my_page = site.pages | where: "path", path | first -%}
+          {%- if my_page.title -%}
             <a href="{{ my_page.url | relative_url }}" class="btn">{{ my_page.title | escape }}</a>
-            {%- endif -%}
-      {%- endfor -%}
-      {% if site.github.is_project_page %}
-        <a href="{{ site.github.repository_url }}" class="btn">View on GitHub</a>
-      {% endif %}
+          {%- endif -%}
+        {%- endfor -%}
+        <a href="/search" class="btn">Search</a>
+        <a href="/blogs" class="btn">Blogs</a>
+        <a href="/login" class="btn">Login</a>
+      </div>
     </header>
+    
 
     <main id="content" class="main-content" role="main">
       {{ content }}
