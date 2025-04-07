@@ -1,6 +1,6 @@
 ---
-layout: post
-title: Add a Post
+layout: tailwind
+title: Community Events
 permalink: /post
 menu: nav/home.html
 search_exclude: true
@@ -9,7 +9,7 @@ search_exclude: true
     .container {
         display: flex;
         justify-content: center;
-        width: 100%;
+        width: 200%;
         max-width: 1200px;
         padding: 20px;
         box-sizing: border-box;
