@@ -2,7 +2,7 @@
 layout: tailwind
 title: Weather
 search_exclude: true
-permalink: /traffic/
+permalink: /weather/
 ---
 
 <!-- weather.html -->
@@ -17,7 +17,6 @@ permalink: /traffic/
 
 <div class="container mx-auto p-4">
     <h1 class="text-3xl font-bold text-center mb-4">Weather Information</h1>
-
     <div class="flex justify-center mb-4">
         <input
             id="city-input"
@@ -32,7 +31,6 @@ permalink: /traffic/
             Get Weather
         </button>
     </div>
-
     <div class="text-center mt-6">
         <!-- Weather icon -->
         <div class="flex justify-center items-center mb-4">
@@ -43,7 +41,6 @@ permalink: /traffic/
                 class="w-16 h-16"
             />
         </div>
-
         <!-- Weather location -->
         <h2 id="weather-location" class="text-2xl font-semibold"></h2>
         <p id="weather-condition" class="text-xl mt-2"></p>

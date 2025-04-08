@@ -42,8 +42,8 @@ show_reading_time: false
 {: class="text-6xl font-bold text-center mt-20"}
 
 <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-8 mt-10">
-    <a href="{{site.baseurl}}/traffic/" class="bg-green dark:bg-gray-800 rounded-3xl shadow-lg p-6 hover:scale-105 transform transition-all duration-300 border border-blue-300">
-        <h3 class="text-4xl font-bold text-green-900 dark:text-green-300 text-center">Traffic</h3>
+    <a href="{{site.baseurl}}/weather/" class="bg-green dark:bg-gray-800 rounded-3xl shadow-lg p-6 hover:scale-105 transform transition-all duration-300 border border-blue-300">
+        <h3 class="text-4xl font-bold text-green-900 dark:text-green-300 text-center">Weather</h3>
         <p class="text-lg text-gray-700 dark:text-gray-300 mt-2">
         </p>
     </a>
