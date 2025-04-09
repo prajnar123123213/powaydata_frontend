@@ -17,5 +17,6 @@ plugins:
   - jekyll-remote-theme
 header_pages:
   - navigation/ai.md
+  - navigation/weather.md
   - navigation/post.md
   - navigation/live.md
