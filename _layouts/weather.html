@@ -1,0 +1,112 @@
+---
+layout: base
+---
+
+<!-- Load Poppins from Google Fonts -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Poppins', sans-serif;
+        background-color: #f4f7fa;
+        color: #333;
+        padding: 40px 20px;
+        min-height: 100vh;
+        overflow-y: auto;
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .container {
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        width: 100%;
+        max-width: 600px;
+    }
+
+    h1 {
+        font-size: 22px;
+        margin-bottom: 15px;
+        color: #2C3E50;
+    }
+
+    .description {
+        font-size: 14px;
+        margin-bottom: 20px;
+        color: #7f8c8d;
+    }
+
+    .form-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+        font-size: 14px;
+        margin-bottom: 5px;
+        color: #2C3E50;
+    }
+
+    input,
+    select {
+        padding: 8px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 6px;
+        font-size: 14px;
+        background-color: #fff;
+        color: #333;
+    }
+
+    button.submit-btn {
+        padding: 10px;
+        background-color: #4CAF50;
+        color: white;
+        border: none;
+        border-radius: 6px;
+        font-size: 14px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button.submit-btn:hover {
+        background-color: #45a049;
+    }
+
+    .result-container {
+        margin-top: 20px;
+        padding: 15px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        background-color: #f9f9f9;
+    }
+
+    .result-text {
+        font-size: 14px;
+        color: #333;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 15px;
+        font-size: 12px;
+        color: #777;
+    }
+</style>
+
+<div class="wrapper">
+    {{ content }}
+</div>
