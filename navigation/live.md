@@ -54,7 +54,7 @@ hide: true
             { name: "San Diego Air & Space Museum", price: "$22.50", location: "2001 Pan American Plaza, San Diego, CA 92101", info: "lol" },
             { name: "Gaslamp Quarter", price: "Free", location: "San Diego, CA 92101", info: "lol" },
             { name: "Seaport Village", price: "Free", location: "849 W Harbor Dr, San Diego, CA 92101", info: "lol" },
-            { name: "LEGOLAND California", price: "$89+", location: "1 Legoland Dr, Carlsbad, CA 92008", info: "lol" },
+            { name: "LEGOLAND California", price: "$89+", location: "1 Legoland Dr, Carlsbad, CA 92008", info: "{{site.baseurl}}/legoland" },
             { name: "Mission San Diego de Alcalá", price: "$5 donation", location: "10818 San Diego Mission Rd, San Diego, CA 92108", info: "lol" },
             { name: "Point Loma Tide Pools", price: "$10 per person", location: "Point Loma, CA 92106", info: "lol" },
             { name: "Petco Park", price: "Varies", location: "100 Park Blvd, San Diego, CA 92101", info: "lol" },
