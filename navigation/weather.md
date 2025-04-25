@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Search
+title: Weather
 search_exclude: true
 permalink: /weather/
 ---
