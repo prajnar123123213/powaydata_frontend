@@ -53,7 +53,7 @@ search_exclude: true
     <!-- Weather Recommendation Section -->
     <section class="section">
       <h2 class="section-title">Ideal Weather Conditions</h2>
-        <p>San Diego’s climate is mild year-round, but the best months to visit the zoo are <strong>March through May</strong> and <strong>September through November</strong>. During these months, temperatures are comfortable, and the crowds are generally smaller. Aim for days with temperatures between <strong>65°F and 75°F</strong> and minimal humidity for the best experience. Visit our <a href="{{site.baseurl}}/weather" class="text-primary" target="_blank">Weather feature</a> to see predictions for the upcoming days!</p>
+        <p>San Diego’s climate is mild year-round, but the best months to visit the zoo are <strong>March through May</strong> and <strong>September through November</strong>. During these months, temperatures are comfortable, and the crowds are generally smaller. Aim for days with temperatures between <strong>65°F and 75°F</strong> and minimal humidity for the best experience. Visit our <a href="{{site.baseurl}}/weather" class="text-primary" target="_blank">Weather feature</a> and <a href="{{site.baseurl}}/traffic" class="text-primary" target="_blank">Traffic feature</a> to see predictions for the upcoming days!</p>
     </section>
     <!-- Nearby Restaurants Section -->
     <section class="section">
