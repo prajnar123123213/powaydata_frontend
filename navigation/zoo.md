@@ -98,7 +98,7 @@ search_exclude: true
     <!-- Embedded Video Section -->
     <section class="section">
       <h2 class="section-title">See It for Yourself</h2>
-      <p>Watch this video to explore the beautiful landscapes, animal habitats, and attractions at the San Diego Zoo:</p>
+      <p>Watch this live to explore the beautiful landscapes, animal habitats, and attractions at the San Diego Zoo:</p>
 <div class="ratio ratio-16x9">
   <iframe 
     width="560" 

@@ -98,12 +98,12 @@ search_exclude: true
     <!-- Embedded Video Section -->
     <section class="section">
       <h2 class="section-title">See It for Yourself</h2>
-      <p>Watch this video to explore the beautiful LEGOLAND California theme park:</p>
+      <p>Watch this live to explore the beautiful LEGOLAND California theme park:</p>
 <div class="ratio ratio-16x9">
   <iframe 
     width="560" 
     height="315" 
-    src="https://www.youtube.com/embed/g5Yp2F438xk?autoplay=1&mute=1&si=oIvHSYqJPeql09wP" 
+    src="https://www.youtube.com/embed/Us15QMRz4yc?si=a7fglC17VqlqDSUN&amp&autoplay=1&mute=1" 
     title="YouTube video player" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
