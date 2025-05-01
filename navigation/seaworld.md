@@ -103,7 +103,7 @@ search_exclude: true
   <iframe 
     width="560" 
     height="315" 
-    src="https://www.youtube.com/embed/g5Yp2F438xk?autoplay=1&mute=1&si=oIvHSYqJPeql09wP" 
+    src="https://www.youtube.com/embed/7gz8zeKMIzA?autoplay=1&mute=1&si=oIvHSYqJPeql09wP" 
     title="YouTube video player" 
     frameborder="0" 
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
