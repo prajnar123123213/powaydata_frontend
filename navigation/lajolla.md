@@ -41,7 +41,6 @@ search_exclude: true
 <body>
   <div class="container py-5">
     <h1 class="text-center mb-5">La Jolla Cove Visitor Guide</h1>
-
     <!-- About Section -->
     <section class="section">
       <h2 class="section-title">About La Jolla Cove</h2>
@@ -50,13 +49,11 @@ search_exclude: true
         <li><strong>Helpful Tips:</strong> Arrive early for parking, bring a wetsuit or snorkel gear, and be respectful of wildlife—especially the sea lions, which are often resting on the rocks!</li>
       </ul>
     </section>
-
     <!-- Weather Section -->
     <section class="section">
       <h2 class="section-title">Ideal Visiting Conditions</h2>
       <p>La Jolla Cove is best enjoyed from <strong>May to October</strong> when ocean visibility is clear and the water is warmest. Temperatures between <strong>70°F and 80°F</strong> with low wind make for the perfect beach day. Check the <a href="{{site.baseurl}}/weather" class="text-primary" target="_blank">Weather Report</a> and <a href="{{site.baseurl}}/traffic" class="text-primary" target="_blank">Live Traffic</a> before visiting.</p>
     </section>
-
     <!-- Restaurants Section -->
     <section class="section">
       <h2 class="section-title">Nearby Restaurants</h2>
@@ -85,7 +82,6 @@ search_exclude: true
         </tbody>
       </table>
     </section>
-
     <!-- Video Section -->
     <section class="section">
       <h2 class="section-title">See It for Yourself</h2>
@@ -94,7 +90,7 @@ search_exclude: true
         <iframe 
           width="560" 
           height="315" 
-          src="https://www.youtube.com/embed/k6kGp3YlcBU" 
+          src="https://www.youtube.com/embed/FfhpYTRhgHc?autoplay=1&mute=1&si=oIvHSYqJPeql09wP" 
           title="La Jolla Cove Tour" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 

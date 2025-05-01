@@ -41,7 +41,6 @@ search_exclude: true
 <body>
   <div class="container py-5">
     <h1 class="text-center mb-5">Mission San Diego de Alcalá Guide</h1>
-
     <!-- About Section -->
     <section class="section">
       <h2 class="section-title">About the Mission</h2>
@@ -50,13 +49,11 @@ search_exclude: true
         <li><strong>Visitor Tip:</strong> Modest attire is recommended, especially if attending mass. Bring a camera—this is a great spot for architecture and garden photos!</li>
       </ul>
     </section>
-
     <!-- Weather Section -->
     <section class="section">
       <h2 class="section-title">Best Time to Visit</h2>
       <p>The mission is open year-round, but the most comfortable weather occurs from <strong>March to June</strong> and <strong>September to November</strong>. Ideal temperatures range between <strong>65°F and 75°F</strong>. Avoid mid-summer heat and school field trip crowds when possible. Be sure to check the <a href="{{site.baseurl}}/weather" class="text-primary" target="_blank">Weather updates</a> and <a href="{{site.baseurl}}/traffic" class="text-primary" target="_blank">Traffic routes</a>.</p>
     </section>
-
     <!-- Restaurants Section -->
     <section class="section">
       <h2 class="section-title">Nearby Restaurants</h2>
@@ -85,7 +82,6 @@ search_exclude: true
         </tbody>
       </table>
     </section>
-
     <!-- Video Section -->
     <section class="section">
       <h2 class="section-title">Explore the Mission</h2>
@@ -94,7 +90,7 @@ search_exclude: true
         <iframe 
           width="560" 
           height="315" 
-          src="https://www.youtube.com/embed/2l2IOfKJvRU" 
+          src="https://www.youtube.com/embed/0lKZ9v3JnQI?autoplay=1&mute=1&si=oIvHSYqJPeql09wP" 
           title="Mission San Diego Tour" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
