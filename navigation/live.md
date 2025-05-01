@@ -40,7 +40,7 @@ hide: true
     <script>
         // Inline JavaScript Object for Cars
         const cars = [
-            { name: "Balboa Park", price: "Free", location: "San Diego, CA", info: "{{site.baseurl}}/post" },
+            { name: "Balboa Park", price: "Free", location: "San Diego, CA", info: "{{site.baseurl}}/balboa" },
             { name: "San Diego Zoo", price: "$69.95", location: "2920 Zoo Dr, San Diego, CA 92101", info: "{{site.baseurl}}/zoo" },
             { name: "SeaWorld San Diego", price: "$74.99+", location: "500 Sea World Dr, San Diego, CA 92109", info: "lol" },
             { name: "USS Midway Museum", price: "$32", location: "910 N Harbor Dr, San Diego, CA 92101", info: "lol" },
