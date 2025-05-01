@@ -50,7 +50,7 @@ hide: true
             { name: "Cabrillo National Monument", price: "$10 per person", location: "1800 Cabrillo Memorial Dr, San Diego, CA 92106", info: "lol" },
             { name: "Sunset Cliffs Natural Park", price: "Free", location: "Ladera St, San Diego, CA 92107", info: "lol" },
             { name: "Coronado Beach", price: "Free", location: "Coronado, CA 92118", info: "lol" },
-            { name: "Birch Aquarium at Scripps", price: "$24.95", location: "2300 Expedition Way, La Jolla, CA 92037", info: "lol" },
+            { name: "Birch Aquarium at Scripps", price: "$24.95", location: "2300 Expedition Way, La Jolla, CA 92037", info: "{{site.baseurl}}/birch" },
             { name: "San Diego Air & Space Museum", price: "$22.50", location: "2001 Pan American Plaza, San Diego, CA 92101", info: "lol" },
             { name: "Gaslamp Quarter", price: "Free", location: "San Diego, CA 92101", info: "lol" },
             { name: "Seaport Village", price: "Free", location: "849 W Harbor Dr, San Diego, CA 92101", info: "lol" },

@@ -97,7 +97,6 @@ search_exclude: true
   allow="autoplay" 
   allowfullscreen>
 </iframe>
-
 </div>
     </section>
   </div>
