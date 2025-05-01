@@ -114,3 +114,99 @@ search_exclude: true
 </body>
 
 
+<!-- 7-Day Forecast Section for Fleet Science Center -->
+<section class="section">
+  <h2 class="section-title">7-Day Weather Forecast at the Fleet Science Center</h2>
+  <div id="weather-container" class="weather-row"></div>
+</section>
+
+<style>
+  .weather-row {
+    display: flex;
+    overflow-x: auto;
+    gap: 20px; /* Space between the cards */
+    padding: 10px;
+    justify-content: start;
+  }
+
+  .weather-card {
+    background-color: #007bff;  /* Set a background color for the card */
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 150px;
+    min-width: 150px; /* Ensures the cards are a minimum size */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    color: #ffffff;  /* Set the text color to white */
+  }
+
+  .weather-card img {
+    max-width: 50px;
+    max-height: 50px;
+  }
+
+  .weather-card h3 {
+    font-size: 1.2rem;
+    margin: 10px 0;
+    color: #ffffff;  /* Ensure the date text is white */
+  }
+
+  .weather-card p {
+    font-size: 0.9rem;
+    margin: 5px 0;
+  }
+
+  .weather-card p strong {
+    font-weight: bold;  /* Bold high/low temperature */
+  }
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    loadFleetScienceCenterWeather();
+});
+
+async function loadFleetScienceCenterWeather() {
+    const container = document.getElementById('weather-container');
+    if (!container) {
+        console.error("weather-container not found in DOM.");
+        return;
+    }
+
+    container.innerHTML = ''; // Clear previous content
+
+    try {
+        const response = await fetch("http://127.0.0.1:8887/api/weather?type=forecast&city=92101"); // Using San Diego's city code 92101 for Fleet Science Center
+        if (!response.ok) throw new Error("Failed to fetch weather data");
+
+        const data = await response.json();
+
+        if (!data.forecast || !Array.isArray(data.forecast)) {
+            container.innerHTML = '<p>Error: Invalid data structure</p>';
+            console.error("Unexpected data format:", data);
+            return;
+        }
+
+        // Loop through the forecast and create a card for each day
+        data.forecast.forEach(day => {
+            const card = document.createElement('div');
+            card.className = 'weather-card';
+            card.innerHTML = `
+                <h3>${day.date}</h3>
+                <img src="https:${day.icon}" alt="${day.condition}" />
+                <p>${day.condition}</p>
+                <p>High: ${day.temperature.high}°F</p>
+                <p>Low: ${day.temperature.low}°F</p>
+            `;
+            container.appendChild(card);
+        });
+    } catch (err) {
+        console.error(err);
+        container.innerHTML = '<p>Unable to load weather data.</p>';
+    }
+}
+</script>
