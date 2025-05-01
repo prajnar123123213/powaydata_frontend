@@ -35,13 +35,12 @@ search_exclude: true
 </head>
 
 <div class="flex justify-center">
-  <img src="{{site.baseurl}}/images/ironmountain.png" alt="Iron Mountain Trail" class="w-80 mb-6 fade-in border-8 border-[#1d3e53]" />
+  <img src="{{site.baseurl}}/images/iron.png" alt="Iron Mountain Trail" class="w-80 mb-6 fade-in border-8 border-[#1d3e53]" />
 </div>
 
 <body>
   <div class="container py-5">
     <h1 class="text-center mb-5">Iron Mountain Trail Guide</h1>
-
     <!-- About Section -->
     <section class="section">
       <h2 class="section-title">About Iron Mountain</h2>
@@ -50,13 +49,11 @@ search_exclude: true
         <li><strong>Pro Tip:</strong> Bring sunscreen, plenty of water, and a hat. The trail is mostly exposed with little shade. Early morning or late afternoon hikes are best to avoid heat.</li>
       </ul>
     </section>
-
     <!-- Weather Section -->
     <section class="section">
       <h2 class="section-title">Best Hiking Conditions</h2>
       <p>The best months to hike Iron Mountain are <strong>October through May</strong> when temperatures are cooler. Avoid midday in the summer due to intense heat. Ideal hiking weather is between <strong>60°F and 72°F</strong>. Be sure to check the <a href="{{site.baseurl}}/weather" class="text-primary" target="_blank">weather</a> and <a href="{{site.baseurl}}/traffic" class="text-primary" target="_blank">trail access</a> before heading out.</p>
     </section>
-
     <!-- Nearby Restaurants Section -->
     <section class="section">
       <h2 class="section-title">Nearby Food Options</h2>
@@ -85,7 +82,6 @@ search_exclude: true
         </tbody>
       </table>
     </section>
-
     <!-- Video Section -->
     <section class="section">
       <h2 class="section-title">Experience the Trail</h2>
@@ -94,7 +90,7 @@ search_exclude: true
         <iframe 
           width="560" 
           height="315" 
-          src="https://www.youtube.com/embed/8ZKcU_LM5hk" 
+          src="https://www.youtube.com/embed/JbIDqHxBWLo?autoplay=1&mute=1&si=oIvHSYqJPeql09wP" 
           title="Iron Mountain Trail Poway" 
           frameborder="0" 
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 

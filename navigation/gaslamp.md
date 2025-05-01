@@ -41,7 +41,6 @@ search_exclude: true
 <body>
   <div class="container py-5">
     <h1 class="text-center mb-5">Gaslamp Quarter Visitor Guide</h1>
-
     <!-- About Section -->
     <section class="section">
       <h2 class="section-title">About the Gaslamp Quarter</h2>
@@ -50,13 +49,11 @@ search_exclude: true
         <li><strong>Visitor Tips:</strong> Wear comfy walking shoes, explore during the afternoon for shopping, and enjoy rooftop dining in the evening. Parking can be tricky, so consider ride-shares or public transit.</li>
       </ul>
     </section>
-
     <!-- Weather Section -->
     <section class="section">
       <h2 class="section-title">Best Time to Visit</h2>
       <p>The Gaslamp Quarter is enjoyable year-round, but the best seasons are <strong>spring (March–May)</strong> and <strong>fall (September–November)</strong>, when the weather is mild and events are frequent. Look for days between <strong>68°F and 77°F</strong> for the most comfortable walking and dining experience. Check our <a href="{{site.baseurl}}/weather" class="text-primary" target="_blank">Weather</a> and <a href="{{site.baseurl}}/traffic" class="text-primary" target="_blank">Traffic</a> tools before your trip.</p>
     </section>
-
     <!-- Restaurants Section -->
     <section class="section">
       <h2 class="section-title">Nearby Restaurants</h2>
@@ -84,23 +81,6 @@ search_exclude: true
           </tr>
         </tbody>
       </table>
-    </section>
-
-    <!-- Video Section -->
-    <section class="section">
-      <h2 class="section-title">Take a Look Around</h2>
-      <p>Here's a video tour to help you explore the Gaslamp Quarter before your visit:</p>
-      <div class="ratio ratio-16x9">
-        <iframe 
-          width="560" 
-          height="315" 
-          src="https://www.youtube.com/embed/jlKXcZ9CPuE" 
-          title="Gaslamp Quarter Tour" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-          allowfullscreen>
-        </iframe>
-      </div>
     </section>
   </div>
 </body>
