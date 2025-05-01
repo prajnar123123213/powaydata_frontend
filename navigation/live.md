@@ -59,7 +59,7 @@ hide: true
             { name: "Point Loma Tide Pools", price: "$10 per person", location: "Point Loma, CA 92106", info: "lol" },
             { name: "Petco Park", price: "Varies", location: "100 Park Blvd, San Diego, CA 92101", info: "lol" },
             { name: "The New Children's Museum", price: "$15", location: "200 W Island Ave, San Diego, CA 92101", info: "lol" },
-            { name: "Fleet Science Center", price: "$24.95", location: "1875 El Prado, San Diego, CA 92101", info: "lol" },
+            { name: "Fleet Science Center", price: "$24.95", location: "1875 El Prado, San Diego, CA 92101", info: "{{site.baseurl}}/fleet" },
             { name: "San Diego Natural History Museum", price: "$22", location: "1788 El Prado, San Diego, CA 92101", info: "lol" },
             { name: "San Diego Botanic Garden", price: "$18", location: "300 Quail Gardens Dr, Encinitas, CA 92024", info: "lol" },
             { name: "Poway Lake", price: "Free", location: "14644 Lake Poway Rd, Poway, CA 92064", info: "lol" },
