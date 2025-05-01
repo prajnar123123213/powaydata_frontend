@@ -95,22 +95,3 @@ search_exclude: true
         </tbody>
       </table>
     </section>
-    <!-- Embedded Video Section -->
-    <section class="section">
-      <h2 class="section-title">See It for Yourself</h2>
-      <p>Watch this video to explore the beautiful landscapes, animal habitats, and attractions at the San Diego Zoo:</p>
-<div class="ratio ratio-16x9">
-  <iframe 
-    width="560" 
-    height="315" 
-    src="https://www.youtube.com/embed/7gz8zeKMIzA?autoplay=1&mute=1&si=oIvHSYqJPeql09wP" 
-    title="YouTube video player" 
-    frameborder="0" 
-    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-    referrerpolicy="strict-origin-when-cross-origin" 
-    allowfullscreen>
-  </iframe>
-</div>
-    </section>
-  </div>
-</body>
