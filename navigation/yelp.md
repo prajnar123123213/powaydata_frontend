@@ -10,8 +10,8 @@ permalink: /yelp/
 
 <div>
   <ul>
-    <li><a href="#restaurant-suggestions">Restaurant Suggestions</a></li>
-    <li><a href="#post-section">Post What You Think!</a></li>
+    <li><a href="https://prajnar123123213.github.io/powaydata_frontend/yelp/#:~:text=Add%20Post-,Discover%20Your%20Own!,-Choose%20a%20Type">Discover Your Own</a></li>
+    <li><a href="https://prajnar123123213.github.io/powaydata_frontend/yelp/#:~:text=Juniper%20and%20Ivy-,Post%20What%20You%20Think!,-Select%20Group%20and">Post What You Think!</a></li>
   </ul>
 </div>
 
