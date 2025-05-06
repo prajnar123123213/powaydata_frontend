@@ -59,6 +59,10 @@ layout: base
     text-decoration: none;
   }
 
+  #restaurantOutput .card-body {
+    color: black; /* Ensures the output text is black */
+  }
+
   a:hover {
     text-decoration: underline;
   }
@@ -95,3 +99,35 @@ layout: base
     }
   };
 </script>
+
+
+<body>
+  <div class="container my-5">
+    <h1>Discover Your Own!</h1>
+    <!-- Form Card -->
+    <div class="card shadow-sm mb-4">
+      <div class="card-body">
+        <form id="restaurantForm">
+          <div class="mb-3">
+            <label for="foodType" class="form-label">Choose a Type of Food:</label>
+            <select id="foodType" class="form-select">
+              <option value="Pizza">Pizza</option>
+              <option value="Taco">Taco</option>
+              <option value="Sushi">Sushi</option>
+              <option value="Curry">Curry</option>
+              <option value="Noodles">Noodles</option>
+            </select>
+          </div>
+          <button type="button" class="btn btn-primary w-100" onclick="getRestaurant()">Find a Restaurant</button>
+        </form>
+      </div>
+    </div>
+    <!-- Output Card -->
+    <div id="restaurantOutput" class="card shadow-sm d-none">
+      <div class="card-body text-center">
+       {{content}}
+      </div>
+    </div>
+  </div>
+
+  

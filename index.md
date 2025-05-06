@@ -11,7 +11,7 @@ show_reading_time: false
 {: class="text-7xl text-center drop-shadow-lg"}
 
 <p class="text-2xl text-center  max-w-3xl mx-auto mt-4 leading-relaxed">
-    Reliable data & insights for Poway and beyond
+    Reliable insights and information for Poway and beyond
 </p>
 
 <div class="flex justify-center">
@@ -48,9 +48,9 @@ show_reading_time: false
       <h3 class="text-3xl font-bold text-green-900 text-center">Live Activity</h3>
       <p class="text-md text-gray-800 mt-4 text-center">Explore current events, local happenings, and community dynamics around you.</p>
   </a>
-  <a href="{{site.baseurl}}/post" class="bg-gradient-to-br from-green-100 to-green-300 rounded-3xl shadow-md p-6 hover:scale-105 transform transition-all duration-300">
-      <h3 class="text-3xl font-bold text-green-900 text-center"> Insight</h3>
-      <p class="text-md text-gray-800 mt-4 text-center">Share and read user-generated reviews, updates, and thoughts from Poway locals.</p>
+  <a href="{{site.baseurl}}/yelp" class="bg-gradient-to-br from-green-100 to-green-300 rounded-3xl shadow-md p-6 hover:scale-105 transform transition-all duration-300">
+      <h3 class="text-3xl font-bold text-green-900 text-center"> Restaurant</h3>
+      <p class="text-md text-gray-800 mt-4 text-center"> Explore and share reviews of restaurants that tourists can find around Poway.</p>
   </a>
 </div>
 
